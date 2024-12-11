@@ -1,9 +1,10 @@
-!캡처1
+![캡처1](https://github.com/user-attachments/assets/0f218ce9-21ca-433e-8c82-f2b1dd563370)
 
-구조 분해 할당은 객체나 배열 같은 데이터 묶음을 쉽게 꺼내 쓸 수 있게 해주는 JavaScript 문법입니다. 일일이 하나씩 꺼내는 대신, 한 번에 필요한 것만 가져올수 있는 방식이며 복잡한 데이터를 다룰 때 시간을 아껴주고 코드도 깔끔하게 작성이 가능합니다.
+1. 구조 분해 할당은 객체나 배열 같은 데이터 묶음을 쉽게 꺼내 쓸 수 있게 해주는 JavaScript 문법입니다. 일일이 하나씩 꺼내는 대신, 한 번에 필요한 것만 가져올수 있는 방식이며 복잡한 데이터를 다룰 때 시간을 아껴주고 코드도 깔끔하게 작성이 가능합니다.
 
 ex)
 
+```
 const user = {
   name: "철수",
   age: 25,
@@ -19,7 +20,7 @@ const { name, age } = user;
 
 console.log(name); // "철수"
 console.log(age);  // 25
-
+```
 
 
 2.
@@ -57,6 +58,7 @@ useEffect에서 cleanup 함수를 사용하거나, 플래그 변수를 이용해
 Promise에서 에러 처리를 하지 않으면 애플리케이션이 예상치 못한 상태에 빠질 수 있어. React에서 특히 서버 요청이나 파일 읽기 등의 작업은 에러가 발생하기 쉽기 때문에 catch를 사용하거나, async/await와 try/catch를 적절히 사용하는 것이 중요합니다.
 
 예방 방법:
+```
 fetch("https://api.example.com/data")
   .then((response) => {
     if (!response.ok) {
@@ -66,19 +68,16 @@ fetch("https://api.example.com/data")
   })
   .then((data) => console.log(data))
   .catch((error) => console.error("에러 발생:", error));
+```
 
-
-!캡처2
-
-
-
+![캡처2](https://github.com/user-attachments/assets/2bd2c66b-48ff-4879-8113-632c3ac05b52)
 
 
 
 
 
 
-!캡처3
-이미지
-이미지
-이미지
+
+
+
+![캡처3](https://github.com/user-attachments/assets/351009a4-a133-47aa-b75a-c3262255f4ab)
