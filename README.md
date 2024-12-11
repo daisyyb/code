@@ -74,6 +74,7 @@ fetch("https://api.example.com/data")
 
 
 
+구현: React 환경으로 components 와 App.js 에 해당 기능들을 구현하였습니다.
 
 
 
