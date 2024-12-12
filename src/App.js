@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './App.css'; 
 import Editor from './components/Editor.js'; 
 import MarkdownParser from './components/MarkdownParser.js';
+import EulerianPathFinder from './components/eulerian_path.js';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <h1>MarkDown</h1>
       <h2>[# head, ## head, {'>'}인용글] 등으로 확인이 기능 확인이 가능합니다.</h2>
       <MarkdownParser/>
+      <hr/>
+      <EulerianPathFinder/>
     </div>
   );
 }
